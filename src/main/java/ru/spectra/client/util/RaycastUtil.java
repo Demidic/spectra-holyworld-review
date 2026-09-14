@@ -108,10 +108,6 @@ public final class RaycastUtil {
         return isEntityUnobstructed(cameraPosVec, cameraPosVec.add(vec3d.multiply(d)), cameraEntity, entity, z);
     }
 
-    public static boolean rayTrace(HitPointResolver class884Var, LivingEntity livingEntity, Vec3d vec3d, Vec3d vec3d2, double d, Box box, boolean z) {
-        return class884Var.hasValidPoint(livingEntity, (float) d, z) && rayTrace(vec3d, vec3d2, d, box);
-    }
-
     public static boolean rayTrace(Vec3d vec3d, Vec3d vec3d2, double d, Box box) {
         return box.contains(vec3d) || box.raycast(vec3d, vec3d.add(vec3d2.multiply(d))).isPresent();
     }

@@ -15,7 +15,9 @@ final class HolyWorldSourcePurityTest {
                 "NoFallMode", "NoSlowMode", "NukerDiggingMode", "NukerWorkMode", "MoveCorrectionMode",
                 "GrimAdvancedMode", "DuelContext", "DuelStrategy", "AutoDuelArmorType", "AutoDuelOffhandItem",
                 "DuelKitType", "RotationConfig", "ScheduledRotation", "PlayerInteractItemC2SPacketMixin",
-                "hookSilentRotationYaw", "hookSilentRotationPitch", "moveBypass$$$", "packetRotate");
+                "hookSilentRotationYaw", "hookSilentRotationPitch", "moveBypass$$$", "packetRotate",
+                "RotationDelta", "RotationVectorEvent", "RotationUpdateEvent", "MovementYawEvent",
+                "HitPointResolver", "computeGcd", "quadraticBezier");
         try (var paths = Files.walk(Path.of("src/main"))) {
             for (Path path : paths.filter(p -> p.toString().endsWith(".java") || p.toString().endsWith(".json")).toList()) {
                 String source = Files.readString(path);

@@ -133,14 +133,6 @@ public final class MathUtil {
         return d >= d3 && d <= d3 + d5 && d2 >= d4 && d2 <= d4 + d6;
     }
 
-    public static Rotation quadraticBezier(Rotation class007Var, Rotation class007Var2, float f, float f2, float f3) {
-        float fClamp = MathHelper.clamp(f, 0.0f, 1.0f);
-        float f4 = 1.0f - fClamp;
-        float fWrapDegrees = MathHelper.wrapDegrees(class007Var2.getYaw() - class007Var.getYaw());
-        Rotation class007Var3 = new Rotation(class007Var.getYaw() + (fWrapDegrees * 0.5f) + f2, class007Var.getPitch() + ((class007Var2.getPitch() - class007Var.getPitch()) * 0.5f) + f3);
-        return new Rotation(class007Var.getYaw() + (f4 * f4 * 0.0f) + (2.0f * f4 * fClamp * (class007Var3.getYaw() - class007Var.getYaw())) + (fClamp * fClamp * fWrapDegrees), (f4 * f4 * class007Var.getPitch()) + (2.0f * f4 * fClamp * class007Var3.getPitch()) + (fClamp * fClamp * class007Var2.getPitch()));
-    }
-
     public static float interpolate(float f, float f2, float f3) {
         return f + ((f2 - f) * f3);
     }
@@ -159,11 +151,6 @@ public final class MathUtil {
 
     public static double lerp(double d, double d2, double d3) {
         return d + ((d2 - d) * clamp(deltaTime() * d3, 0.0d, 1.0d));
-    }
-
-    public static double computeGcd() {
-        double dDoubleValue = (((Double) Mc.INSTANCE.getGameOptions().getMouseSensitivity().getValue()).doubleValue() * 0.6000000238418579d) + 0.20000000298023224d;
-        return dDoubleValue * dDoubleValue * dDoubleValue * 8.0d * 0.15d;
     }
 
     public static float rad(float f) {
