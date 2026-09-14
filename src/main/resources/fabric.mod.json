@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "spectra",
+  "version": "${version}",
+  "name": "Spectra",
+  "description": "Spectra Minecraft client",
+  "authors": [],
+  "license": "All-Rights-Reserved",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ru.spectra.SpectraClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.2",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "mixins": [
+    "spectra.mixins.json"
+  ],
+  "accessWidener": "spectra.accesswidener"
+}

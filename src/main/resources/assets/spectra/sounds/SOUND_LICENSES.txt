@@ -1,0 +1,4 @@
+ui_slider_tick.wav
+Source: "Tic Toc Click" by Breviceps
+https://freesound.org/people/Breviceps/sounds/448081/
+License: CC0 1.0 (public domain)

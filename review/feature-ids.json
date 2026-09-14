@@ -1,0 +1,483 @@
+{
+  "client": "spectra",
+  "channel": "liteapi:feature-control",
+  "method": "checkFeatures",
+  "features": [
+    {
+      "id": "activeeffects",
+      "name": "Active Effects",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows active potion effects"
+    },
+    {
+      "id": "aspectratio",
+      "name": "Aspect Ratio",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/AspectRatioModule.java",
+      "description": "Changes the rendered aspect ratio"
+    },
+    {
+      "id": "autoeat",
+      "name": "Auto Eat",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/AutoEatModule.java",
+      "description": "Eats food already in the hotbar; never moves inventory items"
+    },
+    {
+      "id": "autoresell",
+      "name": "Auto Resell",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/AutoResellModule.java",
+      "description": "Repeats configured sale actions"
+    },
+    {
+      "id": "autorespawn",
+      "name": "AutoRespawn",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/AutoRespawnModule.java",
+      "description": "Respawns automatically after death"
+    },
+    {
+      "id": "autosprint",
+      "name": "Auto Sprint",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/SprintModule.java",
+      "description": "Starts sprinting while you move"
+    },
+    {
+      "id": "autoswap",
+      "name": "Auto Swap",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/AutoSwapModule.java",
+      "description": "Swaps configured items by context"
+    },
+    {
+      "id": "betterchat",
+      "name": "Better Chat",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/BetterChatModule.java",
+      "description": "Improves chat appearance and timing"
+    },
+    {
+      "id": "binds",
+      "name": ".bind",
+      "kind": "command",
+      "source": "src/main/java/ru/spectra/client/command/BindCommand.java",
+      "description": "Changes, lists or clears client feature keybinds."
+    },
+    {
+      "id": "blockoutline",
+      "name": "Block Outline",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/BlockOutlineModule.java",
+      "description": "Customizes selected-block outlines"
+    },
+    {
+      "id": "chams",
+      "name": "Chams",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ChamsModule.java",
+      "description": "Customizes visible entity rendering"
+    },
+    {
+      "id": "changehand",
+      "name": "Change Hand",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ChangeHandModule.java",
+      "description": "Switches the player's preferred hand"
+    },
+    {
+      "id": "claninvest",
+      "name": "Clan Invest",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ClanInvestModule.java",
+      "description": "Schedules clan investments"
+    },
+    {
+      "id": "commandprefix",
+      "name": ".prefix",
+      "kind": "command",
+      "source": "src/main/java/ru/spectra/client/command/PrefixCommand.java",
+      "description": "Changes the client command prefix."
+    },
+    {
+      "id": "cooldowns",
+      "name": "Cooldowns",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows item cooldown timers"
+    },
+    {
+      "id": "coordinates",
+      "name": "Coordinates",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows your world position"
+    },
+    {
+      "id": "crosshair",
+      "name": "Crosshair",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/CrosshairModule.java",
+      "description": "Replaces the vanilla crosshair"
+    },
+    {
+      "id": "deathcoordinates",
+      "name": "Death Coordinates",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/DeathCoordinatesModule.java",
+      "description": "Saves your last death position"
+    },
+    {
+      "id": "dropall",
+      "name": "Drop matching items (Ctrl+Shift+Q)",
+      "kind": "inventory hotkey",
+      "source": "src/main/java/ru/spectra/client/util/DropAllHandler.java",
+      "description": "Drops matching inventory items only on Ctrl+Shift+Q user input."
+    },
+    {
+      "id": "elytrahelper",
+      "name": "Elytra Helper",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ElytraHelperModule.java",
+      "description": "Automates common elytra actions"
+    },
+    {
+      "id": "freelook",
+      "name": "Free Look",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/FreeLookModule.java",
+      "description": "Lets the camera rotate independently"
+    },
+    {
+      "id": "friends",
+      "name": ".friend",
+      "kind": "command",
+      "source": "src/main/java/ru/spectra/client/command/FriendCommand.java",
+      "description": "Manages the local friends list used by client convenience features."
+    },
+    {
+      "id": "fthelper",
+      "name": "FT Helper",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/FTHelperModule.java",
+      "description": "Shows FunTime structure timers, event waypoints and finished cooldowns"
+    },
+    {
+      "id": "fullbright",
+      "name": "Full Bright",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/FullBrightModule.java",
+      "description": "Keeps dark areas clearly visible"
+    },
+    {
+      "id": "hitboxcustomizer",
+      "name": "HitBox Customizer",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HitBoxCustomizerModule.java",
+      "description": "Customizes visible hitboxes"
+    },
+    {
+      "id": "hiteffect",
+      "name": "Hit Effect",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HitEffectModule.java",
+      "description": "Draws a surface wave when you hit"
+    },
+    {
+      "id": "hitsounds",
+      "name": "Hit Sounds",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HitSoundsModule.java",
+      "description": "Plays a sound when you hit"
+    },
+    {
+      "id": "hwhelper",
+      "name": "HW Helper",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HWHelperModule.java",
+      "description": "Shows HolyWorld structure timers and finished cooldowns"
+    },
+    {
+      "id": "inventory",
+      "name": "Inventory",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows inventory contents"
+    },
+    {
+      "id": "itemphysic",
+      "name": "Item Physic",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ItemPhysicModule.java",
+      "description": "Adds realistic dropped-item physics"
+    },
+    {
+      "id": "itemradius",
+      "name": "Item Radius",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ItemRadiusModule.java",
+      "description": "Shows nearby item locations"
+    },
+    {
+      "id": "itemscroller",
+      "name": "ItemScroller",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ItemScrollerModule.java",
+      "description": "Moves item stacks more quickly"
+    },
+    {
+      "id": "jumpcircle",
+      "name": "Jump Circle",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/JumpCircleModule.java",
+      "description": "Draws a circle when you land"
+    },
+    {
+      "id": "keybinds",
+      "name": "Keybinds",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows enabled bound functions"
+    },
+    {
+      "id": "killeffect",
+      "name": "Kill Effect",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/KillEffectModule.java",
+      "description": "Plays an effect after a kill"
+    },
+    {
+      "id": "lockslot",
+      "name": "Lock Slot",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/LockSlotModule.java",
+      "description": "Protects a selected inventory slot"
+    },
+    {
+      "id": "macros",
+      "name": ".macro",
+      "kind": "command",
+      "source": "src/main/java/ru/spectra/client/command/MacroCommand.java",
+      "description": "Sends user-defined chat commands on a configured hotkey."
+    },
+    {
+      "id": "minehelper",
+      "name": "Mine Helper",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/MineHelperModule.java",
+      "description": "Shows the next mine reset"
+    },
+    {
+      "id": "nameprotect",
+      "name": "Name Protect",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/NameProtectModule.java",
+      "description": "Replaces protected player names"
+    },
+    {
+      "id": "notifications",
+      "name": "Notifications",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows client status messages"
+    },
+    {
+      "id": "optimizer",
+      "name": "Optimizer",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/OptimizerModule.java",
+      "description": "Optional terrain caching, entity/block-entity occlusion and tick culling; defaults and mod-compatibility warnings are in the source."
+    },
+    {
+      "id": "particles",
+      "name": "Particles",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ParticlesModule.java",
+      "description": "Customizes client-side particles"
+    },
+    {
+      "id": "popchams",
+      "name": "Pop Chams",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/PopChamsModule.java",
+      "description": "Shows a fading player snapshot"
+    },
+    {
+      "id": "projectileprediction",
+      "name": "Projectile Prediction",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ProjectilePredictionModule.java",
+      "description": "Previews projectile trajectories"
+    },
+    {
+      "id": "pvpsafe",
+      "name": "PvP Safe",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/PvPSafeModule.java",
+      "description": "Disables selected features for safety"
+    },
+    {
+      "id": "reconnect",
+      "name": ".rct",
+      "kind": "command",
+      "source": "src/main/java/ru/spectra/client/command/ReconnectCommand.java",
+      "description": "Reconnects the player to the same selected server."
+    },
+    {
+      "id": "removals",
+      "name": "Removals",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/RemovalsModule.java",
+      "description": "Hides selected visual distractions"
+    },
+    {
+      "id": "rwgriefjoiner",
+      "name": "RW Grief Joiner",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/RWGriefJoinerModule.java",
+      "description": "Helps connect to grief servers"
+    },
+    {
+      "id": "rwhelper",
+      "name": "RW Helper",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/RWHelperModule.java",
+      "description": "Filters restricted chat messages and closes the join menu"
+    },
+    {
+      "id": "selfnametag",
+      "name": "Self Name Tag",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/SelfNameTagModule.java",
+      "description": "Renders your own name tag"
+    },
+    {
+      "id": "shaderhand",
+      "name": "Shader Hand",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ShaderHandModule.java",
+      "description": "Applies shaders to first-person hands"
+    },
+    {
+      "id": "shifttap",
+      "name": "Shift Tap",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ShiftTapModule.java",
+      "description": "Performs a controlled sneak tap"
+    },
+    {
+      "id": "shulkerpreview",
+      "name": "Shulker Preview",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ShulkerPreviewModule.java",
+      "description": "Shows shulker contents when you hover over it"
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/SkeletonModule.java",
+      "description": "Shows visible player poses without rendering through blocks"
+    },
+    {
+      "id": "sounds",
+      "name": "Sounds",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/SoundsModule.java",
+      "description": "Plays Spectra interface sounds"
+    },
+    {
+      "id": "structures",
+      "name": "Structures",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows active trap and plast timers"
+    },
+    {
+      "id": "tapemouse",
+      "name": "Tape Mouse",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/TapeMouseModule.java",
+      "description": "Repeats a configured mouse action"
+    },
+    {
+      "id": "targetesp",
+      "name": "Target ESP",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/TargetESPModule.java",
+      "description": "Highlights the selected target"
+    },
+    {
+      "id": "targethud",
+      "name": "Target HUD",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows information about a target"
+    },
+    {
+      "id": "tpaccept",
+      "name": "TP Accept",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/TPAcceptModule.java",
+      "description": "Accepts allowed teleport requests"
+    },
+    {
+      "id": "trails",
+      "name": "Trails",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/TrailsModule.java",
+      "description": "Draws movement trails"
+    },
+    {
+      "id": "viewmodel",
+      "name": "View Model",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ArmTweaksModule.java",
+      "description": "Customizes first-person hand motion"
+    },
+    {
+      "id": "watermark",
+      "name": "Watermark",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/HudModules.java",
+      "description": "Shows client and session info"
+    },
+    {
+      "id": "waypoints",
+      "name": ".waypoint",
+      "kind": "command",
+      "source": "src/main/java/ru/spectra/client/command/WaypointCommand.java",
+      "description": "Adds and renders user-defined waypoints."
+    },
+    {
+      "id": "widgets",
+      "name": "Widgets",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/WidgetsModule.java",
+      "description": "Controls the Spectra HUD"
+    },
+    {
+      "id": "worldeffects",
+      "name": "World Effects",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/WorldEffectsModule.java",
+      "description": "Adds visual refraction, flash, distortion and blur effects to TNT explosions, mace smash and arrow hits."
+    },
+    {
+      "id": "worldtweaks",
+      "name": "World Tweaks",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/WorldTweaksModule.java",
+      "description": "Adjusts time, fog and world visuals"
+    },
+    {
+      "id": "zoom",
+      "name": "Zoom",
+      "kind": "module",
+      "source": "src/main/java/ru/spectra/client/module/ZoomModule.java",
+      "description": "Smoothly magnifies the camera view"
+    }
+  ]
+}

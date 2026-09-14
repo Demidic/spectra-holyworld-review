@@ -1,0 +1,13 @@
+{
+  "targetProductionSequence": 188,
+  "comparedFiles": 1071,
+  "nativeizationAnnotationOnlyFiles": 17,
+  "expectedReviewOnlyChanges": [
+    "src/main/java/ru/spectra/SpectraClientInit.java",
+    "src/main/java/ru/spectra/client/SpectraBootstrap.java",
+    "src/main/java/ru/spectra/client/model/SystemStatusState.java",
+    "src/main/java/ru/spectra/client/ui/SystemStatusOverlay.java"
+  ],
+  "addedUiDiagnosticEnum": "src/main/java/ru/spectra/client/model/BackendConnectionIssue.java",
+  "unexpectedDifferences": []
+}
